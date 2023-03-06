@@ -1,0 +1,4 @@
+function add(x,y) {
+  let temp = 2x + y;
+  return temp
+}
