@@ -1,0 +1,24 @@
+add = (x,y) => {
+let temp = x + y;
+return temp
+}
+#택시상황조건문
+if(money >= 5000) {
+rideTaxi();
+console.log("택시를 탄다.");
+} else if(money > 2000) {
+JumpinBus();
+}
+else {
+    walk();
+}
+let money = 3000;
+if(money >= 5000) {
+
+console.log("택시를 탄다.");
+} else if(money > 2000) {
+console.log("버스 탄다.");
+}
+else {
+   console.log("걷는다.");
+}
